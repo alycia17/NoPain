@@ -1,0 +1,15 @@
+﻿-- Table: no_pain.admin
+
+-- DROP TABLE no_pain.admin;
+
+CREATE TABLE no_pain.admin
+(
+  nome "char",
+  senha "char",
+  email "char"
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE no_pain.admin
+  OWNER TO postgres;
